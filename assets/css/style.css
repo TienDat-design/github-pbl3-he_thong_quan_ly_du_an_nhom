@@ -106,3 +106,17 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+.discribe a {
+  color: #000;
+  font-family: "Instrument Sans";
+  font-size: 32px;
+  font-weight: 500;
+  border: 6px solid #000;
+  display: inline-flex;
+  padding: 14px 29px 14px 31px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
