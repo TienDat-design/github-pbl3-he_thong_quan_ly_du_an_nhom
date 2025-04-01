@@ -61,7 +61,48 @@ a {
   color: #000;
   margin-right: 10px;
 }
-
+/* 
 .log a:hover {
   font-weight: bold;
+} */
+/* ----------------------------------------HERO----------------------------------- */
+
+.main-content {
+  display: flex;
+  align-items: center; /* Để căn giữa theo chiều dọc */
+  justify-content: space-between; /* Tùy chọn căn đều khoảng cách giữa các phần tử */
+}
+
+.discribe,
+.img-trangchu {
+  flex: 1; /* Điều này giúp mỗi phần tử chiếm một phần không gian tương đối */
+}
+.discribe h1 {
+  color: #000;
+  font-family: "Instrument Sans";
+  font-size: 128px;
+  font-weight: 400;
+  background-color: rgba(7, 32, 220, 0.36);
+  align-items: center;
+  display: inline-flex;
+  max-height: 59px;
+  padding-top: 25px;
+  margin-top: -500px;
+}
+.discribe h2 {
+  color: #000;
+  font-family: "Instrument Sans";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.discribe p {
+  color: #000;
+  text-align: justify;
+  font-family: "Instrument Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
