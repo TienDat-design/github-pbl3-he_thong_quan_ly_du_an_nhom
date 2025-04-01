@@ -1,3 +1,67 @@
+html {
+  font-size: 62.5%;
+}
 body {
-  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-family: "Instrument Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background-color: #d9d9d9;
+  max-height: 93px;
+}
+.header .body {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+  margin-top: 32px;
+}
+.nav a {
+  color: #000;
+  font-family: Inter;
+  font-size: 2.4rem;
+  padding: 8px 47.7px;
+}
+.nav li.active a,
+.nav a:hover {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.log {
+  margin-top: 56px;
+  margin-left: 30px;
+}
+
+.btn-signup {
+  display: inline-flex;
+  padding: 9px 11px 9px 9px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(35, 36, 68, 0.86);
+  color: #fff;
+}
+.btn-login {
+  color: #000;
+  margin-right: 10px;
+}
+
+.log a:hover {
+  font-weight: bold;
 }
